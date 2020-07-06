@@ -1,0 +1,11 @@
+# Corona-Anwesenheits-Tracker (CAT)
+
+## Anforderungen: 
+Sie arbeiten in der IT-Abteilung einer großen Behörde, in der viel Kundenverkehr herrscht, und sollen deshalb auf die Schnelle (ad-hoc) ein Corona-Anwesenheits-Tracker mit der Bezeichnung CAT entwickeln. CAT soll vom Pförtner dazu verwendet werden, um jeder Zeit nachvollziehen zu können, ob sich bereits zu viele Personen im Gebäude befinden und die vorgeschriebenen Abstandregelungen infolgedessen eventuell nicht mehr eingehalten werden können. Das Programm unterscheidet bei Personen zwischen Mitarbeitern und Kunden. Betritt ein Mitarbeiter das Gebäude, so trägt der Pförtner den Namen des Mitarbeiters in das Programm ein, wählt zusätzlich eine Checkbox Ist Mitarbeiter an und bestätigt mit Klick auf den Button Gebäude betreten. Ebenso verhält es sich mit den Kunden, wobei die Checkbox Ist Mitarbeiter nicht angehakt wird. Beim Verlassen des Gebäudes wird der Prozess ebenso mit Klick auf den Button Gebäude verlassen abgewickelt. Ein Counter verrät dem Pförtner, wie hoch die relative Auslastung in Hinblick auf die Anzahl der Personen ist, die sich im Gebäude befinden. Weil Mitarbeitern durch ihre Büroräume insgesamt mehr Fläche zur Verfügung steht, hat die Behördenleitung beschlossen, dass Mitarbeiter nur einen halb so großen Einfluss auf die Auslastung haben. Der Auslastungswert wird bei Verlassen des Programms gespeichert und beim Starten des Programms wieder geladen. Gleiches erfolgt für eine Auflistung aller anwesenden Personen. Über einen weiteren Button kann sich der Pförtner einer Liste aller anwesenden Personen ausgeben lassen.
+
+## Aufgabe: 
+Setzten Sie die beschriebenen Anforderungen in einem Java-Programm um. Nutzen Sie eine Model-View-Control-Architektur und beginnen Sie bei der Implementierung mit den Klassen des Model-Paketes. Hinweis: Es befinden sich nie zwei oder mehr Personen mit demselben Namen im Gebäude.
+
+## Ergänzung: 
+Wenn die Auslastung einen entsprechenden Anteil (85%, 90%, 95%) von einem zuvor festgelegten Maximalwert erreicht, soll der Counter entsprechend der Ampelfarben (grün, gelb, rot) eingefärbt werden. Ist der Maximalwert erreicht, soll der Pförtner zusätzlich über einen Systemdialog angewiesen werden, weiteren Personen das Betreten des Gebäudes zu untersagen.
+
